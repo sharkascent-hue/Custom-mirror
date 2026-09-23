@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /basket/
+
+Sitemap: https://cuttosizemirrors.co.uk/sitemap.xml

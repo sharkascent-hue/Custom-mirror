@@ -1,0 +1,13 @@
+# Old WooCommerce URLs -> new pages (Netlify / Cloudflare Pages format).
+# Product, about, faq and contact URLs are unchanged, so they need no redirect.
+/shop/                /                  301
+/shop                 /                  301
+/checkout/            /basket/           301
+/checkout             /basket/           301
+/cart/                /basket/           301
+/basket               /basket/           301
+/my-account/          /contact-us/       302
+/product-category/*   /                  301
+/product/custom-mirror      /product/custom-mirror/                     301
+/product/custom-glass       /product/custom-glass/                      301
+/product/made-to-measure-custom-splashback  /product/made-to-measure-custom-splashback/  301
