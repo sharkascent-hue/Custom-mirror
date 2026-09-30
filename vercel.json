@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/shop", "destination": "/", "permanent": true },
+    { "source": "/checkout", "destination": "/basket/", "permanent": true },
+    { "source": "/cart", "destination": "/basket/", "permanent": true },
+    { "source": "/my-account", "destination": "/contact-us/", "permanent": false },
+    { "source": "/product-category/:path*", "destination": "/", "permanent": true }
+  ]
+}
